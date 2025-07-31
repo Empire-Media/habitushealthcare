@@ -87,7 +87,7 @@
         /* Hero Section */
         .hero {
             height: 100vh;
-            background: linear-gradient(135deg, rgba(26, 54, 93, 0.9), rgba(45, 90, 135, 0.9), rgba(74, 144, 164, 0.8)), 
+            background: linear-gradient(135deg, rgba(19, 41, 75, 1), rgba(30, 55, 100, 1), rgba(40, 60, 90, 0.8)), 
                         url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%23f0f9ff"/><stop offset="50%" stop-color="%23e0f2fe"/><stop offset="100%" stop-color="%23bae6fd"/></linearGradient></defs><rect width="1200" height="800" fill="url(%23bg)"/><g opacity="0.4"><circle cx="200" cy="150" r="60" fill="%234a90a4"/><circle cx="800" cy="200" r="40" fill="%232d5a87"/><circle cx="1000" cy="400" r="80" fill="%231a365d"/><circle cx="300" cy="600" r="50" fill="%234a90a4"/><circle cx="900" cy="650" r="35" fill="%232d5a87"/></g><g opacity="0.2"><path d="M0,400 Q300,300 600,400 T1200,400 V800 H0 Z" fill="%231a365d"/></g></svg>') center/cover;
             display: flex;
             align-items: center;
@@ -221,7 +221,7 @@
         .service-icon {
             width: 60px;
             height: 60px;
-            background: linear-gradient(135deg, #1a365d, #2d5a87);
+            background: linear-gradient(135deg, #13294B, #2d5a87);
             border-radius: 15px;
             display: flex;
             align-items: center;
@@ -359,7 +359,8 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="%23ffffff" stroke-width="0.5" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+            /* background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="%23ffffff" stroke-width="0.5" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>'); */
+            background: #A7C6ED;
         }
 
         .about-visual-content {
@@ -381,7 +382,8 @@
         /* Contact Section */
         .contact {
             padding: 6rem 2rem;
-            background: #1a1a1a;
+            /* background: #1a1a1a; */
+            background: #B67233;
             color: white;
         }
 
@@ -483,7 +485,8 @@
 
         /* Footer */
         .footer {
-            background: #0f0f0f;
+            /* background: #0f0f0f; */
+            background: #307FE2;
             color: #ccc;
             text-align: center;
             padding: 2rem;
@@ -495,15 +498,19 @@
         }
 
         .footer .logo {
-            display: flex;
+            /* display: flex;
             align-items: center;
-            justify-content: center;
+            justify-content: center; 
             color: #1a365d;
             font-size: 1.5rem;
             font-weight: 700;
             margin-bottom: 1rem;
             letter-spacing: 0.5px;
-            text-decoration: none;
+            text-decoration: none; */
+            background: url(habitusLogo.svg);
+            height: 120px;
+            width: 120px;
+            margin: 0 auto;
         }
 
         .footer .logo-symbol {
@@ -749,8 +756,9 @@
     <footer class="footer">
         <div class="container">
             <div class="logo">
-                <div class="logo-symbol">H</div>
-                <span>HABITUS</span>
+                <!-- <div class="logo-symbol">H</div>
+                <span>HABITUS</span> -->
+                <a href="#home" class="logo"><img src="habitusLogo.svg" height="120" width="120"/></a>
             </div>
             <p>&copy; 2025 Habitus Healthcare. All rights reserved.</p>
             <p>Connecting pharmaceutical innovation with global health authorities.</p>
